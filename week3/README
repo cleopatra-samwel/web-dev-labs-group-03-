@@ -1,0 +1,23 @@
+## objective
+To apply HTML structure and CSSS styling techniques by creating a single webpage using inline, internal, and external CSS methods together with different CSS selectors
+
+## what was done
+. Create a web page containing:
+  header section, navigation menu with anchor links, about section with paragraph with image, skills section using an unordered list, dairly routine section using an oredered list
+. Applying CSS styling using:
+  external, internal and inline CSS
+. Demostrate different CSS selectors:
+  element, class, Id, group, and Descedant selectors
+
+## challenges faced
+. linking the external CSS file correctly to the HTML document
+. Understanding the difference between inline, internal,        and external CSS
+. Making tyhe navigations links connects propery to the page    section using anchors
+
+## Group 3 members
+CLEOPATRA SAMWEL
+KELVIN NJAU 
+ELINEKA TEMU
+AMANI EDSON 
+ALPHA KANYAMBO
+REHEMA MKALAMA

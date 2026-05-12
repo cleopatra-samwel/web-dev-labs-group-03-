@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        /* Navigation Menu Styling */
+        nav ul {
+            list-style-type: none;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: yellow;
+        }
+
+        /* Group Selector */
+        h1, h2, h3 {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Section Heading Styling */
+        h2 {
+            color: darkblue;
+            border-bottom: 2px solid gray;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <h1 style="color: darkred;">Elineka Temu</h1>
+        <p style="font-style: italic;">Web Development Student</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#routine">Daily Routine</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+
+        <p>
+            My name is Elineka. a student interested in
+            web development, networking, and system design.
+        </p>
+
+        <img src="myphoto1.jpg"
+             alt="Profile Picture"
+             style="border-radius: 10px; width: 250px; height: 200px;">
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Networking</li>
+            <li>System Analysis</li>
+        </ul>
+    </section>
+
+    <!-- Daily Routine Section -->
+    <section id="routine" class="section">
+        <h2>Daily Routine</h2>
+
+        <ol>
+            <li>Wake up and prepare for class</li>
+            <li>Attend lectures</li>
+            <li>Practice coding</li>
+            <li>Do assignments</li>
+            <li>Rest and sleep</li>
+        </ol>
+    </section>
+
+</body>
+</html>

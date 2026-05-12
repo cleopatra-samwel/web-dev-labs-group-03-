@@ -1,0 +1,32 @@
+/* Element Selector */
+body {
+    background-color: #f0f8ff;
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+}
+
+/* ID Selector */
+#header {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Class Selector */
+.section {
+    background-color: white;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Descendant Selector */
+nav ul li a {
+    font-weight: bold;
+}
+
+/* Pseudo-class */
+nav ul li a:hover {
+    background-color: black;
+    padding: 5px;
+}
